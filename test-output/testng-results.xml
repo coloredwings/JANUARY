@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27" started-at="2023-01-17T21:21:42Z" finished-at="2023-01-17T21:21:42Z">
+    <groups>
+      <group name="regression">
+        <method signature="APITEST.APITESTLoanapplogin()[pri:0, instance:YEAR2023.JANUARY.APITEST@223f3642]" name="APITESTLoanapplogin" class="YEAR2023.JANUARY.APITEST"/>
+        <method signature="APITEST.APITESTLoanbranchlogin()[pri:0, instance:YEAR2023.JANUARY.APITEST@223f3642]" name="APITESTLoanbranchlogin" class="YEAR2023.JANUARY.APITEST"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="APITEST.APITESTLoanweblogin()[pri:0, instance:YEAR2023.JANUARY.APITEST@223f3642]" name="APITESTLoanweblogin" class="YEAR2023.JANUARY.APITEST"/>
+        <method signature="SELENIUMTEST.applogin()[pri:0, instance:YEAR2023.JANUARY.SELENIUMTEST@7219ec67]" name="applogin" class="YEAR2023.JANUARY.SELENIUMTEST"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="27" started-at="2023-01-17T21:21:42Z" finished-at="2023-01-17T21:21:42Z">
+      <class name="YEAR2023.JANUARY.APITEST">
+        <test-method status="PASS" signature="APITESTLoanapplogin()[pri:0, instance:YEAR2023.JANUARY.APITEST@223f3642]" name="APITESTLoanapplogin" duration-ms="1" started-at="2023-01-17T22:21:42Z" finished-at="2023-01-17T22:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITESTLoanapplogin -->
+        <test-method status="PASS" signature="APITESTLoanbranchlogin()[pri:0, instance:YEAR2023.JANUARY.APITEST@223f3642]" name="APITESTLoanbranchlogin" duration-ms="0" started-at="2023-01-17T22:21:42Z" finished-at="2023-01-17T22:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITESTLoanbranchlogin -->
+        <test-method status="PASS" signature="APITESTLoanweblogin()[pri:0, instance:YEAR2023.JANUARY.APITEST@223f3642]" name="APITESTLoanweblogin" duration-ms="0" started-at="2023-01-17T22:21:42Z" finished-at="2023-01-17T22:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APITESTLoanweblogin -->
+      </class> <!-- YEAR2023.JANUARY.APITEST -->
+      <class name="YEAR2023.JANUARY.SELENIUMTEST">
+        <test-method status="PASS" signature="applogin()[pri:0, instance:YEAR2023.JANUARY.SELENIUMTEST@7219ec67]" name="applogin" duration-ms="8" started-at="2023-01-17T22:21:42Z" finished-at="2023-01-17T22:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applogin -->
+        <test-method status="PASS" signature="branchlogin()[pri:0, instance:YEAR2023.JANUARY.SELENIUMTEST@7219ec67]" name="branchlogin" duration-ms="0" started-at="2023-01-17T22:21:42Z" finished-at="2023-01-17T22:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- branchlogin -->
+        <test-method status="PASS" signature="phonelogin()[pri:0, instance:YEAR2023.JANUARY.SELENIUMTEST@7219ec67]" name="phonelogin" duration-ms="1" started-at="2023-01-17T22:21:42Z" finished-at="2023-01-17T22:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phonelogin -->
+        <test-method status="PASS" signature="weblogin()[pri:0, instance:YEAR2023.JANUARY.SELENIUMTEST@7219ec67]" name="weblogin" duration-ms="1" started-at="2023-01-17T22:21:42Z" finished-at="2023-01-17T22:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogin -->
+      </class> <!-- YEAR2023.JANUARY.SELENIUMTEST -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
